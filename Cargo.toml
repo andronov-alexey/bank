@@ -1,0 +1,13 @@
+[package]
+name = "bank"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.94"
+derive_more = { version = "1.0.0" , features = ["display"]}
+csv = "1.3.1"
+env_logger = "0.11.5"
+log = "0.4.22"
+serde = { version = "1.0.215", features = ["derive"] }
+tokio = { version = "1.42.0", features = ["macros", "rt-multi-thread"] }
